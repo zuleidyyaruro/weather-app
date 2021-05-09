@@ -35,8 +35,6 @@ const ContainerWeather = ({ setweatherMain }) => {
     }, [longitude, latitude])
 
 
-
-
     return (
         <div className="overlay">
 
