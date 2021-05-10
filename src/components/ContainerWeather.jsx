@@ -32,7 +32,7 @@ const ContainerWeather = ({ setweatherMain }) => {
                 setweatherMain(response.data.weather[0].main)
             })
         }
-    }, [longitude, latitude])
+    }, [longitude, latitude, setweatherMain])
 
 
     return (

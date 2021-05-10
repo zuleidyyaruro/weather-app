@@ -15,7 +15,8 @@ export const setBackgroundImage = (op) => {
         case "Clouds":
             background="https://images.pexels.com/photos/2678435/pexels-photo-2678435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             break;
-    
+        default:
+            background=null;
 
     }
     return background;
